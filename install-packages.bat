@@ -36,6 +36,7 @@ REM just for fun
 choco install youtube-dl
 choco install qbittorrent
 choco install mpv
+choco install hub
 
 REM refresh the env again to make sure  the tools are discoverable in PATH
 call refreshenv.cmd
@@ -46,12 +47,9 @@ gem install neovim
 pip install --user neovim
 pip3 install --user neovim
 
-REM map caplocks to ctrl via auto hotkey
-
-
 REM Install vscode extensions.
 REM even though I prefer to use vim (onivim on windows)
-ext install formulahendry.code-runner
-ext install slevesque.vscode-autohotkey
-ext install shaunlebron.vscode-parinfer
+code --install-extension formulahendry.code-runner
+code --install-extension slevesque.vscode-autohotkey
+code --install-extension shaunlebron.vscode-parinfer
 
