@@ -51,4 +51,19 @@ Right click on `remap-caplock.ahk` and select "Run Script"
 
 #### Onivim
 
-- Go to j
+- `Ctrl-Shift-P`, edit user config, copy and paste content of `oni-config.ts`
+  into it.
+- `Ctrl-Shift-P`, edit neovim config, copy and paste content of `oni-init.vim`
+  into it
+
+- Clone my [dotfiles](https://github.com/letientai299/dotfiles) to somewhere
+- Go to AppData > Local > nvim, create folder `autoload`, and open the terminal,
+  run following command to download vim-plug
+
+  ```
+  wget  https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+  ```
+- Also, in nvim folder, copy and paste following folder from
+  dotfiles into nvim folder:
+    - `vim/after`
+    - `vim/spell`

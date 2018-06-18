@@ -9,7 +9,7 @@ export const configuration = {
   "sidebar.enabled": false,
   "ui.colorscheme": "onedark",
   "oni.loadInitVim": true,
-  "editor.fontSize": "10px",
+  "editor.fontSize": "9px",
   "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
   "ui.animations.enabled": true,
@@ -17,4 +17,6 @@ export const configuration = {
   "statusbar.fontSize": "0.8em",
   "ui.fontSize": "10px",
   "tabs.height": "2em",
+  "experimental.preview.enabled": true,
+  "experimental.markdownPreview.enabled": true,
 }

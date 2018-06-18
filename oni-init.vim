@@ -201,7 +201,6 @@ Plug 'mhinz/vim-startify'
 
 " More GUI stuffsý,
 
-ý,
 Plug 'kshenoy/vim-signature'
 Plug 'mhinz/vim-signify'
 
