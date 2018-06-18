@@ -29,6 +29,7 @@ choco install intellijidea-community
 choco install sumatrapdf
 choco install wget
 choco install 7zip
+choco install make
 
 REM autohotkey is used to remap caplock to ctrl, without need to logout and log in again.
 choco install autohotkey

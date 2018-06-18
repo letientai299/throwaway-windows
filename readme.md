@@ -48,3 +48,7 @@ I really wish Firefox to support addons managements via CLI.
 #### Execute autohotkey script
 
 Right click on `remap-caplock.ahk` and select "Run Script"
+
+#### Onivim
+
+- Go to j
