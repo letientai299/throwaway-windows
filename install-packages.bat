@@ -10,34 +10,32 @@ REM accept license automatically
 choco feature enable --name allowGlobalConfirmation
 
 REM tools
+choco install firefox
 choco install clink
 choco install git
-choco install firefox
-choco install googlechrome
+choco install wget
+choco install vscode
+REM choco install googlechrome
 choco install conemu
 choco install firacode
-choco install vscode
-choco install jdk8
+REM choco install jdk8
 choco install nodejs
 choco install tomighty
 choco install python3
 choco install python2
 choco install ruby
-choco install racket
-choco install jetbrainstoolbox
-choco install intellijidea-community 
+REM choco install racket
+REM choco install jetbrainstoolbox
+REM choco install intellijidea-community 
 choco install sumatrapdf
-choco install wget
 choco install 7zip
 choco install make
 
 REM autohotkey is used to remap caplock to ctrl, without need to logout and log in again.
 choco install autohotkey
-REM just for fun
-choco install youtube-dl
+REM choco install youtube-dl
 choco install qbittorrent
-choco install mpv
-choco install hub
+REM choco install mpv
 
 REM refresh the env again to make sure  the tools are discoverable in PATH
 call refreshenv.cmd
@@ -53,4 +51,6 @@ REM even though I prefer to use vim (onivim on windows)
 code --install-extension formulahendry.code-runner
 code --install-extension slevesque.vscode-autohotkey
 code --install-extension shaunlebron.vscode-parinfer
+code --install-extension fallenwood.viml
+
 
